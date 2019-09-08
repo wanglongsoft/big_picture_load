@@ -80,7 +80,7 @@ public class CC_ImageView extends AppCompatImageView {
                 InputStream stream_sub_one = null;
                 InputStream stream_sub_two = null;
                 try {
-                    stream = mContext.getAssets().open("shanghe.jpg");
+                    stream = mContext.getAssets().open("large.jpg");
 
                     byteArrayOutputStream = new ByteArrayOutputStream();
 
